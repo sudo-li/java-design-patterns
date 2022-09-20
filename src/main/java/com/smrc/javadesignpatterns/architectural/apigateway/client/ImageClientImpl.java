@@ -1,5 +1,6 @@
-package com.smrc.javadesignpatterns.architectural.apigateway;
+package com.smrc.javadesignpatterns.architectural.apigateway.client;
 
+import com.smrc.javadesignpatterns.architectural.apigateway.client.ImageClient;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -9,7 +10,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 @Service
-public class ImageClientImpl implements ImageClient{
+public class ImageClientImpl implements ImageClient {
     @Override
     public String getImageUrl() {
         HttpClient httpClient = HttpClient.newHttpClient();

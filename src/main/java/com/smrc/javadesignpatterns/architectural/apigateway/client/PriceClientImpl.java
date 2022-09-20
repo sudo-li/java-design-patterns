@@ -1,4 +1,4 @@
-package com.smrc.javadesignpatterns.architectural.apigateway;
+package com.smrc.javadesignpatterns.architectural.apigateway.client;
 
 import org.springframework.stereotype.Service;
 

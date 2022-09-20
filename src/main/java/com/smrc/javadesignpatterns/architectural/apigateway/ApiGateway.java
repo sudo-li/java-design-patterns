@@ -1,5 +1,7 @@
 package com.smrc.javadesignpatterns.architectural.apigateway;
 
+import com.smrc.javadesignpatterns.architectural.apigateway.client.ImageClient;
+import com.smrc.javadesignpatterns.architectural.apigateway.client.PriceClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
